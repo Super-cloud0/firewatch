@@ -1,0 +1,9 @@
+streamlit
+pandas
+plotly
+opencv-python
+ultralytics
+mss
+Pillow
+requests
+numpy
