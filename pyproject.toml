@@ -1,0 +1,15 @@
+[project]
+name = "ecowatch"
+version = "4.0.0"
+description = "EcoWatch AI — обнаружение пожаров и дыма на видео (YOLO + Streamlit)"
+requires-python = ">=3.10"
+
+[tool.ruff]
+line-length = 120
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B", "UP"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

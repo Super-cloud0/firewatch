@@ -1,26 +1,27 @@
 .venv/
+venv/
 .idea/
 .vscode/
 __pycache__/
 *.pyc
+.pytest_cache/
+.ruff_cache/
 
+# секреты
+.env
+
+# данные приложения: журнал, снимки, клипы, загрузки
+data/
+recordings/
+detection_history.json
+
+# датасеты и результаты обучения
 dataset_detect/
 dataset_retrain/
 fire_smoke_images/
+runs/
 runs_retrain/
-
 shop project/
 
 *.pt
 !models/best.pt
-
-recordings/
-detection_history.json
-
-1111.py
-1111_backup*.py
-check_classes.py
-check_imports.py
-download_extra_data.py
-retrain_model.py
-train_detect.py
